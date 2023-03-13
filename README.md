@@ -47,7 +47,34 @@ The research hopes to explore the relationship between pedestrian paths and othe
 ![training process](https://github.com/shuhanmomo/MIT-4.570-Design-Heritage/blob/49da4fd53152097c955dcb8fa5fc4c245c461a9d/img/pix2pix-training%20process.png)  
 Training Process of the Model
 ![loss value](https://github.com/shuhanmomo/MIT-4.570-Design-Heritage/blob/49da4fd53152097c955dcb8fa5fc4c245c461a9d/img/pix2pix%20-loss.png)
-Record of Loss Values during the Process
+Record of Loss Values during the Process  
+  
+  
+  
+## Video Analysis --  Public Spaces Through the Lens of TikTok (INCOMPLETE) 
+ 
+### Project Statement
+The aim of this research is to investigate cross-cultural differences in human activity patterns in public spaces, specifically Boston Common Park in the United States, Kowloon Park in Hong Kong, and Luxembourg Gardens in France. Using TikTok videos as the primary data source, I will analyze human activity patterns in each location and compare them across the three sites.
+
+The project is inspired by The Street Life Project, conducted by William Whyte in the 1970s, aiming to understand the social dynamics of public spaces in urban areas by observing and analyzing people's behavior. Whyte's project focused on physical observations and interactions with people in public spaces
+![streetlifeproject](https://github.com/shuhanmomo/MIT-4.570-Design-Heritage/blob/5c49d8b0b44d9daf47ae6807a4de4e3d3a527090/img/street%20life%20project.png)
+
+My expectation is a better understanding of the role of social media in shaping our experiences and perceptions of public spaces. such as how people behave in these spaces when they know they might be filmed or how TikTok trends influence the types of activities people engage in. Tiktok is a user-generated content which provides a unique and diverse perspective on public spaces that may not be captured by traditional data sources, such as surveillance cameras or sensor networks.
+
+I download 100 TikTok videos for each location and use the Moments in Time model to classify the types of human activities observed in the TikTok videos and compare the frequency of each activity across the three locations.
+
+Currently,the model fails in predicting these behavior most of the time. I think there may be some reasons due to data quality: 1. Change of scene happens too frequently in most Tiktok videos 2. it's hard to set a uniform second interval to analyze all Tiktok videos 3. Tiktok filters and captions may interfere the analysis.  In the future, I will try other video analysis model such as Yolo4 to detect objects in scene or pose prediction model and train the Moments in Time model with my own input.
+
+
+
+### Workflow
+**Webscraping**  
+- 'scraping tiktok.py' contains python script to scrape down Tiktok videos
+  
+**Moments in Time Training**:  
+- 'Moments_In_Time.zip' contains pretrained model and needs to be uploaded to google drive and copy the path to the collab file
+- 'moments_in_time.ipynb' is a google collab file where I fit the pretrained model with my input videos and output corresponding CSV file
+![training result](https://github.com/shuhanmomo/MIT-4.570-Design-Heritage/blob/5c49d8b0b44d9daf47ae6807a4de4e3d3a527090/img/moments%20in%20time.png)
   
 
 
