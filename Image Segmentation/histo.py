@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 scene_tp = ['Calm','Romantic','Happiness','Sadness']
-location = f"D:\OneDrive\GSD4thTerm\Design Heritage\ASS1\output\{scene}\images_scores.csv"
+path = f"D:\OneDrive\GSD4thTerm\Design Heritage\ASS1\output\{scene}\images_scores.csv"
 df = pd.read_csv(path)
 df = df.drop(['Unnamed: 0'],axis= 1)
 df.head()
