@@ -3,9 +3,8 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 
-locations = ['bostoncommon','kowloonpark','luxembourggardens']
-location = locations[1]
-path = f'D:\OneDrive\GSD4thTerm\Design Heritage\ASS3\{location}_predict.csv'
+scene_tp = ['Calm','Romantic','Happiness','Sadness']
+path = f"D:\OneDrive\GSD4thTerm\Design Heritage\ASS1\output\{scene}\images_scores.csv"
 df = pd.read_csv(path)
 df = df.drop(['Unnamed: 0'],axis= 1)
 df.head()
