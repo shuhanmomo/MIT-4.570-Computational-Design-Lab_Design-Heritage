@@ -13,7 +13,7 @@ sleep(3)
 
 # store log-in information
 my_user = 'moumou014725@gmail.com'
-my_pwd = 'miao680829'
+my_pwd = ' '  # put in the password
 dest_loc = 'D:\Computational design\web_scraped_img'
 # fill in login name
 login_button = driver.find_element(By.XPATH,'//a[@data-cy="login-modal"]')
