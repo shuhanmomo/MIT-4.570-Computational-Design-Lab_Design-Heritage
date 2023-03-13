@@ -25,8 +25,29 @@ film studies researchers, who can use this information to understand the impact 
   
 **Data Visualization**:  
 - 'pie chart.py' 'histo.py''distribution.py' uses Matplotlib to visualize the exported CSV data
-![analysis](https://github.com/shuhanmomo/MIT-4.570-Design-Heritage/blob/cd693d93ce010c18932c2a4cf1fb75f1c038d96e/img/data%20analysis.jpg)
+![analysis](https://github.com/shuhanmomo/MIT-4.570-Design-Heritage/blob/cd693d93ce010c18932c2a4cf1fb75f1c038d96e/img/data%20analysis.jpg)  
+    
+  
+  
+## Pix2pix --  Generating Pedestrian Path Patterns in Boston's Urban Parks (INCOMPLETE) 
+ 
+### Project Statement
+In this project, I prepare paired plan diagrams as training examples, with one diagram labeling the surrounding building programs, urban fabric and park boundaries, and the other diagram highlighting the pedestrian pathway inside the park. The goal is to train the model to take an urban plan with indication of park boundaries and surrounding urban fabric as input, and output the possible pedestrian pathway inside the park.
 
+The research hopes to explore the relationship between pedestrian paths and other contextual  features. Current training faces a overfitting problem due to small-size dataset and less clear input diagrams, which will be modified in the next-round exploration. In the future, it will also compare pedestrian path patterns across different cities and regions.
+
+
+### Workflow
+**Color-coded Diagram**  
+- 'Pedestrian_path.zip' contains prepared input diagrams
+![coded images](https://github.com/shuhanmomo/MIT-4.570-Design-Heritage/blob/49da4fd53152097c955dcb8fa5fc4c245c461a9d/img/pix2pix.png)
+  
+**Pix2pix Training**:  
+- 'Ass2_Tracy_pix2pix.ipynb' is a copy from google collab which trains the pix2pix model with prepared diagrams
+![training process](https://github.com/shuhanmomo/MIT-4.570-Design-Heritage/blob/49da4fd53152097c955dcb8fa5fc4c245c461a9d/img/pix2pix-training%20process.png)  
+Training Process of the Model
+![loss value](https://github.com/shuhanmomo/MIT-4.570-Design-Heritage/blob/49da4fd53152097c955dcb8fa5fc4c245c461a9d/img/pix2pix%20-loss.png)
+Record of Loss Values during the Process
   
 
 
