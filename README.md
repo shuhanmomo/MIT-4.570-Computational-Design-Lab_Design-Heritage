@@ -1,7 +1,7 @@
-# MIT-4.570-Design-Heritage
+## MIT-4.570-Design-Heritage
 This is the repository where I will update my ongoing projects in the course MIT 4.570
   
-## Image Segmentation -- Decoding the Scene Atmosphere in Movies
+# Image Segmentation -- Decoding the Scene Atmosphere in Movies
   
 ### Project Statement
 This study aims to examine the question how the physical spaces and environments in movies impact the narrative and emotional content of the scenes. Using semantic 
@@ -30,7 +30,7 @@ film studies researchers, who can use this information to understand the impact 
     
   
   
-## Pix2pix --  Generating Pedestrian Path Patterns in Boston's Urban Parks (INCOMPLETE) 
+# Pix2pix --  Generating Pedestrian Path Patterns in Boston's Urban Parks (INCOMPLETE) 
  
 ### Project Statement
 In this project, I prepare paired plan diagrams as training examples, with one diagram labeling the surrounding building programs, urban fabric and park boundaries, and the other diagram highlighting the pedestrian pathway inside the park. The goal is to train the model to take an urban plan with indication of park boundaries and surrounding urban fabric as input, and output the possible pedestrian pathway inside the park.
@@ -53,7 +53,7 @@ Record of Loss Values during the Process
   
   
   
-## Video Analysis --  Public Spaces Through the Lens of TikTok (INCOMPLETE) 
+# Video Analysis --  Public Spaces Through the Lens of TikTok (INCOMPLETE) 
  
 ### Project Statement
 The aim of this research is to investigate cross-cultural differences in human activity patterns in public spaces, specifically Boston Common Park in the United States, Kowloon Park in Hong Kong, and Luxembourg Gardens in France. Using TikTok videos as the primary data source, I will analyze human activity patterns in each location and compare them across the three sites.
