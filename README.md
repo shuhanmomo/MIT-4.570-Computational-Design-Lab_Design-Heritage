@@ -20,6 +20,7 @@ film studies researchers, who can use this information to understand the impact 
   
 **Image Segmentation**:  
 - 'DPT_Segmentation.zip' contains all the inputs and pretrained DPT model, needs to be uploaded to the google drive and copy corresponding path  
+   Github link to DPT model https://github.com/isl-org/DPT
 - 'Tracy_segmentation.ipynb' is a copy of google collab file which fits the input images into DPT model and out put segmented results and CSV file
 ![segmentation](https://github.com/shuhanmomo/MIT-4.570-Design-Heritage/blob/cd693d93ce010c18932c2a4cf1fb75f1c038d96e/img/segmented.png)
   
@@ -43,7 +44,8 @@ The research hopes to explore the relationship between pedestrian paths and othe
 ![coded images](https://github.com/shuhanmomo/MIT-4.570-Design-Heritage/blob/49da4fd53152097c955dcb8fa5fc4c245c461a9d/img/pix2pix.png)
   
 **Pix2pix Training**:  
-- 'Ass2_Tracy_pix2pix.ipynb' is a copy from google collab which trains the pix2pix model with prepared diagrams
+- 'Ass2_Tracy_pix2pix.ipynb' is a copy from google collab which trains the pix2pix model with prepared diagrams  
+link to original Pix2pix model:https://www.tensorflow.org/tutorials/generative/pix2pix
 ![training process](https://github.com/shuhanmomo/MIT-4.570-Design-Heritage/blob/49da4fd53152097c955dcb8fa5fc4c245c461a9d/img/pix2pix-training%20process.png)  
 Training Process of the Model
 ![loss value](https://github.com/shuhanmomo/MIT-4.570-Design-Heritage/blob/49da4fd53152097c955dcb8fa5fc4c245c461a9d/img/pix2pix%20-loss.png)
@@ -72,7 +74,8 @@ Currently,the model fails in predicting these behavior most of the time. I think
 - 'scraping tiktok.py' contains python script to scrape down Tiktok videos
   
 **Moments in Time Training**:  
-- 'Moments_In_Time.zip' contains pretrained model and needs to be uploaded to google drive and copy the path to the collab file
+- 'Moments_In_Time.zip' contains pretrained model and needs to be uploaded to google drive and copy the path to the collab file  
+link to the original Moments in Time model :http://moments.csail.mit.edu/
 - 'moments_in_time.ipynb' is a google collab file where I fit the pretrained model with my input videos and output corresponding CSV file
 ![training result](https://github.com/shuhanmomo/MIT-4.570-Design-Heritage/blob/5c49d8b0b44d9daf47ae6807a4de4e3d3a527090/img/moments%20in%20time.png)
   
