@@ -1,4 +1,4 @@
-## MIT-4.570-Design-Heritage
+## MIT-4.570-Computational Design Lab: Design Heritage
 This is the repository where I will update my ongoing projects in the course MIT 4.570
   
 # Image Segmentation -- Decoding the Scene Atmosphere in Movies
